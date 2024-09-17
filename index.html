@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khalid's Kitchen</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- Header Section -->
+    <header>
+        <div class="logo">Khalid's Kitchen</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#product">Product</a></li>
+                <li><a href="#promo">Promo</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <button onclick="location.href='signup.php'">Sign Up</button>
+            <button onclick="location.href='login.php'">Login</button>
+        </div>
+    </header>
+    <p style="background-image: url('images/bb.jpg');"></p>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <h1>Welcome to Khalid's Kitchen</h1>
+            <p>Delicious food delivered to your doorstep</p>
+            <button>Order Now</button>
+        </div>
+    </section>
+
+    <!-- Best Seller Section -->
+    <section class="best-seller" id="product">
+        <h2>Best Sellers</h2>
+        <div class="dish-container">
+            <div class="dish">
+                <img src="images/pic1.jpg" alt="Best Dish 1">
+                <h3>Juicy Burger</h3>
+                <p>Delicious grilled burger with cheese and toppings.</p>
+            </div>
+            <div class="dish">
+                <img src="images/pic2.jpg" alt="Best Dish 2">
+                <h3>Cheesy Pizza</h3>
+                <p>Hot and cheesy pizza with fresh ingredients.</p>
+            </div>
+            <div class="dish">
+                <img src="images/pic3.jpg" alt="Best Dish 3">
+                <h3>Creamy Pasta</h3>
+                <p>Rich and creamy pasta for a perfect meal.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Oriental Taste Special Section -->
+    <section class="special" id="promo">
+        <h2>Oriental Taste</h2>
+        <img src="images/pic4.jpeg" alt="Special Dish">
+        <p>Experience the authentic oriental taste with our special dishes.</p>
+        <button>Try Now</button>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="statistics">
+        <div class="stat">
+            <h3>123</h3>
+            <p>Outlets</p>
+        </div>
+        <div class="stat">
+            <h3>100</h3>
+            <p>Chefs</p>
+        </div>
+        <div class="stat">
+            <h3>300</h3>
+            <p>Menus</p>
+        </div>
+        <div class="stat">
+            <h3>30</h3>
+            <p>Countries</p>
+        </div>
+    </section>
+
+    <!-- Subscription Section -->
+    <section class="subscription">
+        <h2>Subscribe to Our Newsletter</h2>
+        <form action="subscribe.php" method="post">
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-links">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="social-icons">
+        
+            <a href="#"><img src="images/fb.png" alt="Facebook"></a>
+            <a href="#"><img src="images/insta.jpg" alt="Instagram"></a>
+            <a href="#"><img src="images/teitter.png" alt="Twitter"></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url("images/bbbback.jpg"); ;
+    
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #FFD700;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.auth-buttons button {
+    background-color: #FFD700;
+    border: none;
+    padding: 10px 20px;
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.hero {
+    height: 100vh;
+    background-image: url('https://source.unsplash.com/1600x900/?restaurant');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    color: #FFD700;
+}
+
+.hero-text p {
+    font-size: 1.5rem;
+}
+
+.hero-text button {
+    background-color: #FFD700;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.best-seller, .special, .statistics, .subscription {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.best-seller h2, .special h2, .subscription h2 {
+    font-size: 2.5rem;
+    color: #FFD700;
+}
+
+.dish-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.dish {
+    text-align: center;
+}
+
+.dish img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.stat {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.stat h3 {
+    font-size: 3rem;
+    color: #FFD700;
+}
+
+footer {
+    padding: 20px;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
